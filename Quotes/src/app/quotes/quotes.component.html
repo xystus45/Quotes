@@ -11,7 +11,7 @@
 <button class="btn btn-outline-primary" (click)='toogleDetails(position)'>Quote Details</button>
 
 <!-- Input Binding -->
-<app-quote-datails *ngIf="quote.showDesc" [quote]='quote' (vote)='upVote($event,position)' (downvote)='downVote($event,position)' (quoteDelete)='deleteQuote($event,position)'></app-quote-datails>
+<app-quote-details *ngIf="quote.showDesc" [quote]='quote' (vote)='upVote($event,position)' (downvote)='downVote($event,position)' (quoteDelete)='deleteQuote($event,position)'></app-quote-details>
 </div>
 </ol>
 </div>

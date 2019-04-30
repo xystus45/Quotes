@@ -8,7 +8,7 @@ import { Quote } from '../quotes';
 export class QuoteComponent implements OnInit {
 
   quotes = [
-    new Quote(1,"You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.","Dr. Suess","Anthony",0,0,new Date(2019,0,22)), 
+    new Quote(1,"You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.","Dr. Suess","Xystus",0,0,new Date(2019,0,22)), 
     new Quote(2,"Great minds discuss ideas; average minds discuss events; small minds discuss people.","Eleanor Roosevelt","Publisher",0,0,new Date(2019,1,22)),
     
   ]

@@ -2,7 +2,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import {Quote} from '../quotes';
 
 @Component({
-  selector: 'app-quotes-details',
+  selector: 'app-quote-details',
   templateUrl: './quotes-details.component.html',
   styleUrls: ['./quotes-details.component.css']
 })

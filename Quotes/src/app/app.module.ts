@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import {FormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,15 +14,16 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
   declarations: [
     AppComponent,
     QuoteComponent,
-    FormsModule,
     QuoteDetailsComponent,
     HighlightQuoteDirective,
     DateRangePipe,
-    QuoteFormComponent
+    QuoteFormComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
