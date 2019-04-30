@@ -4,17 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './quotes/quotes.component';
-import { QuotesDetailsComponent } from './quotes-details/quotes-details.component';
-import { HighlightDirective } from './highlight.directive';
-import { DataRangePipe } from './data-range.pipe';
+import { QuoteDetailsComponent } from './quotes-details/quotes-details.component';
+import { HighlightQuoteDirective } from "./HighlightQuoteDirective";
+import { DateRangePipe } from './data-range.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuotesComponent,
-    QuotesDetailsComponent,
-    HighlightDirective,
-    DataRangePipe
+    QuoteComponent,
+    QuoteDetailsComponent,
+    HighlightQuoteDirective,
+    DateRangePipe
   ],
   imports: [
     BrowserModule,

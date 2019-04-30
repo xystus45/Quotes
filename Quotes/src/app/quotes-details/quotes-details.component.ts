@@ -6,7 +6,7 @@ import {Quote} from '../quotes';
   templateUrl: './quote-datails.component.html',
   styleUrls: ['./quote-datails.component.scss']
 })
-export class QuoteDatailsComponent implements OnInit {
+export class QuoteDetailsComponent implements OnInit {
 
   @Input() quote:Quote;
 
