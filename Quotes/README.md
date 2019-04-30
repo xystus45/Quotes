@@ -1,27 +1,51 @@
-# Quotes
+# inspiration Quote
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+#Author
+By:Xystus Ngigi
 
-## Development server
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
+The inspirational Quote application has been created for the purpose of allowing users to add/delete Quotes which they can further view and either like or dislike already submitted Quotes.
 
-## Code scaffolding
+## SETUP/INSTALLATION.
+To work With the insiration Quote App {follow the below instructions for set up.}
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+You will need Internet connection.
 
-## Build
+You will also need a Webpage URL to load in URL's:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+To get to use inspirational Quote App fist you need to get to the Quotes repository.
 
-## Running unit tests
+Link:-> #################
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+From there you can access Quotes.
 
-## Running end-to-end tests
+Clone the project.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Once you done with cloning and project is on your device.
 
-## Further help
+get into project folder (cd into project).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+On your bash terminal Run the command:-
+
+ng serve.
+Open your prefered web browser and load it on local host:
+
+http://localhost:4200/
+This will load for you Quotes as long as your requirements are satisfied.
+#bbds
+|                                              input                                               | Behavior                                                                                                                                                                                                                  |
+|:------------------------------------------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| A user inputs a quote of desire,authors name,date then they finish by pressing the Quote button  | The quote is added to the view page                                                                                                                                                                                       |
+| When the user clicks the Quote button                                                            | Additionaldetails include  Author's name, name of the person who posted thequote, days passed since initial Quote posted, Number of upvotes & downvotes are displayed.Also a delete,like or dislike buttons are displayed |
+
+## Technologies Used
+1.Angular version 7(Framework)
+2.Javascript
+3.Typescript
+4.CSS
+5.HTML
+
+##Support and Contact
+Email:xystusngigi@gmai.com

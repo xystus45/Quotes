@@ -1,25 +1,24 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import {Quote} from '../quotes';
 
-import { QuoteFormComponent } from './quote-form.component';
+@Component({
+  selector: 'app-quote-form',
+  templateUrl: './quote-form.component.html',
+  styleUrls: ['./quote-form.component.scss']
+})
+export class QuoteFormComponent implements OnInit {
+  
+  newQuote =new Quote(0,"","","",0,0,new Date());
+  @Output() addQuote = new EventEmitter<Quote>();
 
-describe('QuoteFormComponent', () => {
-  let component: QuoteFormComponent;
-  let fixture: ComponentFixture<QuoteFormComponent>;
+  quoteSubmission(){
+    this.addQuote.emit(this.newQuote);
+    this.newQuote=new Quote(0,"","","",0,0,new Date());
+  }
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [ QuoteFormComponent ]
-    })
-    .compileComponents();
-  }));
+  constructor() { }
 
-  beforeEach(() => {
-    fixture = TestBed.createComponent(QuoteFormComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+  ngOnInit() {
+  }
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+}
