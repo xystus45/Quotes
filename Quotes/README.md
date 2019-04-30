@@ -40,7 +40,7 @@ This will load for you Quotes as long as your requirements are satisfied.
 | A user inputs a quote of desire,authors name,date then they finish by pressing the Quote button  | The quote is added to the view page                                                                                                                                                                                       |
 | When the user clicks the Quote button                                                            | Additionaldetails include  Author's name, name of the person who posted thequote, days passed since initial Quote posted, Number of upvotes & downvotes are displayed.Also a delete,like or dislike buttons are displayed |
 
-## Technologies 
+## Technologies used
 1.Angular 
 2.Javascript
 3.Typescript
