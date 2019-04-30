@@ -1,0 +1,14 @@
+<p> Author:
+  <strong>{{quote.author}}</strong> <br>
+Publisher:<strong>{{quote.publisher}}</strong><br> Upvotes: {{quote.upvotes}}<br> Downvotes: {{quote.downVote}}<br> Days passed since Quote was published <strong>{{quote.actualDate|dateRange}} days</strong> ago.</p>
+<div class="row">
+  <div class="col-md-4">
+<button class="btn btn-outline-info" (click)='upVote(true)'>Up Vote</button>
+</div>
+<div class="col-md-4">
+<button class="btn btn-outline-warning" (click)='downVote(true)'>Down Vote</button>
+</div>
+<div class="col-md-4">
+<button class="btn btn-outline-danger" (click)='deleteQuote(true)'>Delete Quote</button>
+</div>
+</div>
