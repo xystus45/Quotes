@@ -7,6 +7,7 @@ import { QuoteComponent } from './quotes/quotes.component';
 import { QuoteDetailsComponent } from './quotes-details/quotes-details.component';
 import { HighlightQuoteDirective } from "./HighlightQuoteDirective";
 import { DateRangePipe } from './data-range.pipe';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DateRangePipe } from './data-range.pipe';
     QuoteComponent,
     QuoteDetailsComponent,
     HighlightQuoteDirective,
-    DateRangePipe
+    DateRangePipe,
+    QuoteFormComponent
   ],
   imports: [
     BrowserModule,
