@@ -17,7 +17,7 @@ You will also need a Webpage URL to load in URL's:
 
 To get to use inspirational Quote App fist you need to get to the Quotes repository.
 
-Link:-> #################
+Link:-> https://xystus45.github.io/Quotes/
 
 From there you can access Quotes.
 
