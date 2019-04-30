@@ -47,6 +47,6 @@ This will load for you Quotes as long as your requirements are satisfied.
 4.CSS
 5.HTML
 
-##Support and 
+##Support and contact
 Email:xystusngigi@gmai.com
 Github:xystus45
