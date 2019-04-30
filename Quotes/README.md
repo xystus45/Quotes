@@ -41,7 +41,7 @@ This will load for you Quotes as long as your requirements are satisfied.
 | When the user clicks the Quote button                                                            | Additionaldetails include  Author's name, name of the person who posted thequote, days passed since initial Quote posted, Number of upvotes & downvotes are displayed.Also a delete,like or dislike buttons are displayed |
 
 ## Technologies Used
-1.Angular version 7(Framework)
+1.Angular 
 2.Javascript
 3.Typescript
 4.CSS
