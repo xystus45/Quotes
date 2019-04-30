@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Description
 The inspirational Quote application has been created for the purpose of allowing users to add/delete Quotes which they can further view and either like or dislike already submitted Quotes.
 
-## SETUP/INSTALLATION.
+## /INSTALLATION.
 To work With the insiration Quote App {follow the below instructions for set up.}
 
 You will need Internet connection.
